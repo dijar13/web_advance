@@ -1,13 +1,18 @@
+@font-face{
+    font-family: "Fake identity";
+    src: url(fonts/Angelina\ Malika\ -\ Demo\ -\ Personal\ Use\ Only.ttf)
+}
 h1{
     color:green;
     letter-spacing: 20px;
     word-spacing: 10px;
+    font-family: "Fake identity";
 }
-
+    
 p{
     text-indent: 50px;
     text-align: center;
-    writing-mode: vertical-lr;
+ 
 }
 
 h2{
@@ -22,3 +27,22 @@ h4{
     text-decoration: underline;
 }
 
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.myElement{
+    color:blue
+}
+#normalTEXT{
+    font-style: "normal";
+    font-weight: "normal";
+}
+#italicTEXT{
+    font-style: "italiac";
+    font-weight: "bold";
+}
+#obliqueTEXT{
+    font-style: "oblique";
+    font-weight: :900;
+}
