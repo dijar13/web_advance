@@ -1,0 +1,66 @@
+article p{
+    background-color: blue;
+    color: antiquewhite;
+    padding: 20px;
+}
+article > p{
+    background-color: crimson;
+}
+
+article ~ p{
+    background-color: blueviolet;
+    color: beige;
+    padding: 20px;
+}
+
+article + p{
+    background-color: darkorange;
+}
+
+/*Hover*/
+a:hover{
+    color: crimson;
+    font-size: 22px;
+}
+
+/*focus*/
+input:focus{
+    background-color: aquamarine;
+    border: 2px;
+    outline:none;
+}
+
+
+/*first-child*/
+p:first-child{
+    color: chartreuse;
+    font-weight: bold;
+}
+
+
+/*required*/
+  input:required{
+    border:2px solid orange
+  }
+
+  /*valid*/
+
+  input:valid{
+    border: 2px solid orange
+  }
+
+  /*invalid*/
+  input:invalid{
+    border-color:red
+  }
+
+  /*in-range*/
+  input:in-range{
+    background-color: aquamarine;
+
+
+  }
+
+  input:out-of-range{
+    background-color: pink;
+  }
