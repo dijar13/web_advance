@@ -1,0 +1,67 @@
+div.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float:left;
+    width: 180px;
+}
+
+div.gallery:hover{
+     border: 1px solid #777;
+}
+
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+div.desc{
+    padding: 15px;
+    text-align: center;
+}
+
+.sprite{
+    background:url("houses.png") no-repeat;
+}
+.engineers{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: 0px 0px;
+}
+
+.shadows{
+   width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: -500px -500px;
+}
+
+a[href="https:/shkolladigjitale.com/"]{
+    background-color: antiquewhite;
+}
+
+p[cclass*="ds"]{
+    background: blue;
+    color: white;
+    padding: 20px;
+}
+
+div[id~="ds"]{
+    background: green;
+    color: white;
+    padding: 20px;
+}
+/*
+^=ds" - kur fillon me ds
+|=ds" - kur atribute value starton me ds in a dash sepreted
+*/
+
+img[tittle^="blue"]{
+    border: 5px solid blue;
+}
+
+h1[class|=heading]{
+    background: purple;
+    padding: 20px;
+    color: white;
+}
