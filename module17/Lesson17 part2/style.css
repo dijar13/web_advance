@@ -1,0 +1,28 @@
+:root{
+    --primary-color: blue;
+    --secondary-color:red;
+    --padding:20px;
+    --ajnicolor:green;
+    --dariscolor:orange;
+    --paddingirinorit:16px;
+}
+
+h1{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: var(--padding);
+}
+
+P{
+    background-color: var(--ajnicolor);
+    color: var(--dariscoolor);
+    padding: var(--paddingirinorit);
+}
+
+#example-one{
+    margin: 10px;
+    width: 150px;
+    height: 1500px;
+    background-color: 10px;
+    background-color: var(--primary-color);
+}
