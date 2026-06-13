@@ -26,3 +26,27 @@ P{
     background-color: 10px;
     background-color: var(--primary-color);
 }
+
+#example-two{
+    margin: 10px;
+    width: 150px;
+    height: 1500px;
+    border-radius: 20px;
+    border: 3px solid orange;
+}
+
+#example-three{
+     margin: 10px;
+    width: 150px;
+    height: 1500px;
+    border-radius: 50%;
+    background: url(../Lesson17\-\part2/ha.png);
+}
+
+#example-four{
+   margin: 10px;
+    width: 150px;
+    height: 1500px;
+    border-radius: 5px 60px 5px;
+    background: red;
+}
